@@ -1,0 +1,25 @@
+{
+  "name": "antd-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "umi dev",
+    "prod": "set MOCK=none&&umi dev",
+    "build": "umi build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "umi": "^2.6.17",
+    "umi-plugin-react": "^1.7.6"
+  },
+  "dependencies": {
+    "ant-design-pro": "^2.3.2",
+    "antd": "^3.18.1",
+    "dva": "latest",
+    "react": "latest"
+  }
+}
